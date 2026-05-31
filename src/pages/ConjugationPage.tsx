@@ -13,7 +13,7 @@ const verbs = verbsData as Verb[];
 const TABS = [
   { id: 'all',        label: 'All verbs' },
   { id: 'sein-haben', label: 'sein / haben' },
-  { id: 'common-a1',  label: 'Common A1' },
+  { id: 'common-a1',  label: 'Common A1 verbs' },
   { id: 'modal',      label: 'Modal verbs' },
   { id: 'movement',   label: 'Movement' },
   { id: 'daily-life', label: 'Daily life' },
@@ -224,7 +224,7 @@ export default function ConjugationPage() {
         {tabVerbs.length > 1 && (
           <div style={{ marginTop: 20 }}>
             <div className="section-heading" style={{ marginBottom: 8 }}>
-              {TABS.find(t => t.id === activeTab)?.label} verbs
+              {TABS.find(t => t.id === activeTab)?.label}
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
               {tabVerbs.map(v => (
