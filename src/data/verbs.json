@@ -574,5 +574,363 @@
       "ihr": [3],
       "sie": [3, 4]
     }
+  },
+  {
+    "id": "nehmen",
+    "infinitive": "nehmen",
+    "english": "to take",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "nehm– → nimm (du, er/sie/es) — e→i + consonant change",
+    "conjugations": {
+      "ich": { "form": "nehme",  "example": "Ich nehme den Bus.", "translation": "I take the bus." },
+      "du":  { "form": "nimmst", "example": "Nimmst du Zucker?", "translation": "Do you take sugar?" },
+      "er":  { "form": "nimmt",  "example": "Er nimmt die U-Bahn.", "translation": "He takes the subway." },
+      "wir": { "form": "nehmen", "example": "Wir nehmen ein Taxi.", "translation": "We take a taxi." },
+      "ihr": { "form": "nehmt",  "example": "Was nehmt ihr?", "translation": "What will you all have?" },
+      "sie": { "form": "nehmen", "example": "Sie nehmen den Zug.", "translation": "They take the train." }
+    },
+    "irregularMarks": {
+      "du": [1],
+      "er": [1]
+    },
+    "endingIndices": {
+      "ich": [4],
+      "du":  [4, 5],
+      "er":  [4],
+      "wir": [4, 5],
+      "ihr": [4],
+      "sie": [4, 5]
+    }
+  },
+  {
+    "id": "wollen",
+    "infinitive": "wollen",
+    "english": "to want to",
+    "type": "irregular",
+    "category": "modal",
+    "stemNote": "will for ich & er/sie/es — no ending for ich",
+    "conjugations": {
+      "ich": { "form": "will",   "example": "Ich will schlafen.", "translation": "I want to sleep." },
+      "du":  { "form": "willst", "example": "Was willst du machen?", "translation": "What do you want to do?" },
+      "er":  { "form": "will",   "example": "Er will Fußball spielen.", "translation": "He wants to play football." },
+      "wir": { "form": "wollen", "example": "Wir wollen Pizza essen.", "translation": "We want to eat pizza." },
+      "ihr": { "form": "wollt",  "example": "Was wollt ihr trinken?", "translation": "What do you all want to drink?" },
+      "sie": { "form": "wollen", "example": "Sie wollen ins Kino gehen.", "translation": "They want to go to the cinema." }
+    },
+    "irregularMarks": {
+      "ich": [0, 1, 2, 3],
+      "du":  [0, 1, 2, 3],
+      "er":  [0, 1, 2, 3]
+    },
+    "endingIndices": {
+      "du":  [4, 5],
+      "wir": [4, 5],
+      "ihr": [4],
+      "sie": [4, 5]
+    }
+  },
+  {
+    "id": "aufraeumen",
+    "infinitive": "aufräumen",
+    "english": "to tidy up / to clean up",
+    "type": "trennbar",
+    "category": "daily-life",
+    "trennbarInfo": {
+      "prefix": "auf",
+      "splitExample": "Ich räume das Zimmer auf.",
+      "splitTranslation": "I tidy up the room."
+    },
+    "conjugations": {
+      "ich": { "form": "auf/räume",  "example": "Ich räume die Küche auf.", "translation": "I tidy up the kitchen." },
+      "du":  { "form": "auf/räumst", "example": "Räumst du auf?", "translation": "Are you tidying up?" },
+      "er":  { "form": "auf/räumt",  "example": "Er räumt sein Zimmer auf.", "translation": "He tidies up his room." },
+      "wir": { "form": "auf/räumen", "example": "Wir räumen zusammen auf.", "translation": "We tidy up together." },
+      "ihr": { "form": "auf/räumt",  "example": "Räumt ihr auf?", "translation": "Are you all tidying up?" },
+      "sie": { "form": "auf/räumen", "example": "Sie räumen die Wohnung auf.", "translation": "They tidy up the apartment." }
+    },
+    "endingIndices": {
+      "ich": [8],
+      "du":  [8, 9],
+      "er":  [8],
+      "wir": [8, 9],
+      "ihr": [8],
+      "sie": [8, 9]
+    }
+  },
+  {
+    "id": "kochen",
+    "infinitive": "kochen",
+    "english": "to cook",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "koche",  "example": "Ich koche Suppe.", "translation": "I am cooking soup." },
+      "du":  { "form": "kochst", "example": "Kochst du heute?", "translation": "Are you cooking today?" },
+      "er":  { "form": "kocht",  "example": "Er kocht sehr gut.", "translation": "He cooks very well." },
+      "wir": { "form": "kochen", "example": "Wir kochen zusammen.", "translation": "We cook together." },
+      "ihr": { "form": "kocht",  "example": "Was kocht ihr?", "translation": "What are you all cooking?" },
+      "sie": { "form": "kochen", "example": "Sie kochen Pasta.", "translation": "They are cooking pasta." }
+    },
+    "endingIndices": {
+      "ich": [4],
+      "du":  [4, 5],
+      "er":  [4],
+      "wir": [4, 5],
+      "ihr": [4],
+      "sie": [4, 5]
+    }
+  },
+  {
+    "id": "spielen",
+    "infinitive": "spielen",
+    "english": "to play",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "spiele",  "example": "Ich spiele Gitarre.", "translation": "I play guitar." },
+      "du":  { "form": "spielst", "example": "Spielst du Tennis?", "translation": "Do you play tennis?" },
+      "er":  { "form": "spielt",  "example": "Er spielt Fußball.", "translation": "He plays football." },
+      "wir": { "form": "spielen", "example": "Wir spielen zusammen.", "translation": "We play together." },
+      "ihr": { "form": "spielt",  "example": "Spielt ihr gern?", "translation": "Do you all like to play?" },
+      "sie": { "form": "spielen", "example": "Sie spielen Karten.", "translation": "They play cards." }
+    },
+    "endingIndices": {
+      "ich": [5],
+      "du":  [5, 6],
+      "er":  [5],
+      "wir": [5, 6],
+      "ihr": [5],
+      "sie": [5, 6]
+    }
+  },
+  {
+    "id": "fruehstuecken",
+    "infinitive": "frühstücken",
+    "english": "to have breakfast",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "frühstücke",  "example": "Ich frühstücke um 7 Uhr.", "translation": "I have breakfast at 7 o'clock." },
+      "du":  { "form": "frühstückst", "example": "Frühstückst du zu Hause?", "translation": "Do you have breakfast at home?" },
+      "er":  { "form": "frühstückt",  "example": "Er frühstückt spät.", "translation": "He has breakfast late." },
+      "wir": { "form": "frühstücken", "example": "Wir frühstücken zusammen.", "translation": "We have breakfast together." },
+      "ihr": { "form": "frühstückt",  "example": "Frühstückt ihr jeden Tag?", "translation": "Do you all have breakfast every day?" },
+      "sie": { "form": "frühstücken", "example": "Sie frühstücken um 8 Uhr.", "translation": "They have breakfast at 8 o'clock." }
+    },
+    "endingIndices": {
+      "ich": [9],
+      "du":  [9, 10],
+      "er":  [9],
+      "wir": [9, 10],
+      "ihr": [9],
+      "sie": [9, 10]
+    }
+  },
+  {
+    "id": "fernsehen",
+    "infinitive": "fernsehen",
+    "english": "to watch TV",
+    "type": "trennbar",
+    "category": "daily-life",
+    "stemNote": "sieh– for du, er/sie/es (e→ie vowel change)",
+    "trennbarInfo": {
+      "prefix": "fern",
+      "splitExample": "Ich sehe abends fern.",
+      "splitTranslation": "I watch TV in the evenings."
+    },
+    "conjugations": {
+      "ich": { "form": "fern/sehe",   "example": "Ich sehe gern fern.", "translation": "I like watching TV." },
+      "du":  { "form": "fern/siehst", "example": "Siehst du fern?", "translation": "Are you watching TV?" },
+      "er":  { "form": "fern/sieht",  "example": "Er sieht jeden Abend fern.", "translation": "He watches TV every evening." },
+      "wir": { "form": "fern/sehen",  "example": "Wir sehen zusammen fern.", "translation": "We watch TV together." },
+      "ihr": { "form": "fern/seht",   "example": "Seht ihr fern?", "translation": "Are you all watching TV?" },
+      "sie": { "form": "fern/sehen",  "example": "Sie sehen fern.", "translation": "They are watching TV." }
+    },
+    "endingIndices": {
+      "ich": [8],
+      "du":  [9, 10],
+      "er":  [9],
+      "wir": [8, 9],
+      "ihr": [8],
+      "sie": [8, 9]
+    }
+  },
+  {
+    "id": "tanzen",
+    "infinitive": "tanzen",
+    "english": "to dance",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "tanze",  "example": "Ich tanze gern.", "translation": "I like to dance." },
+      "du":  { "form": "tanzt",  "example": "Tanzt du Salsa?", "translation": "Do you dance Salsa?" },
+      "er":  { "form": "tanzt",  "example": "Er tanzt sehr gut.", "translation": "He dances very well." },
+      "wir": { "form": "tanzen", "example": "Wir tanzen zusammen.", "translation": "We dance together." },
+      "ihr": { "form": "tanzt",  "example": "Tanzt ihr?", "translation": "Do you all dance?" },
+      "sie": { "form": "tanzen", "example": "Sie tanzen auf der Party.", "translation": "They dance at the party." }
+    },
+    "endingIndices": {
+      "ich": [4],
+      "du":  [4],
+      "er":  [4],
+      "wir": [4, 5],
+      "ihr": [4],
+      "sie": [4, 5]
+    }
+  },
+  {
+    "id": "schwimmen",
+    "infinitive": "schwimmen",
+    "english": "to swim",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "schwimme",  "example": "Ich schwimme jeden Tag.", "translation": "I swim every day." },
+      "du":  { "form": "schwimmst", "example": "Schwimmst du gern?", "translation": "Do you like to swim?" },
+      "er":  { "form": "schwimmt",  "example": "Er schwimmt sehr schnell.", "translation": "He swims very fast." },
+      "wir": { "form": "schwimmen", "example": "Wir schwimmen im See.", "translation": "We swim in the lake." },
+      "ihr": { "form": "schwimmt",  "example": "Schwimmt ihr auch?", "translation": "Do you all swim too?" },
+      "sie": { "form": "schwimmen", "example": "Sie schwimmen im Freibad.", "translation": "They swim at the outdoor pool." }
+    },
+    "endingIndices": {
+      "ich": [7],
+      "du":  [7, 8],
+      "er":  [7],
+      "wir": [7, 8],
+      "ihr": [7],
+      "sie": [7, 8]
+    }
+  },
+  {
+    "id": "wandern",
+    "infinitive": "wandern",
+    "english": "to hike / to go hiking",
+    "type": "regular",
+    "category": "movement",
+    "conjugations": {
+      "ich": { "form": "wandere",  "example": "Ich wandere gern.", "translation": "I like to hike." },
+      "du":  { "form": "wanderst", "example": "Wanderst du oft?", "translation": "Do you hike often?" },
+      "er":  { "form": "wandert",  "example": "Er wandert in den Alpen.", "translation": "He hikes in the Alps." },
+      "wir": { "form": "wandern",  "example": "Wir wandern am Wochenende.", "translation": "We go hiking on the weekend." },
+      "ihr": { "form": "wandert",  "example": "Wandert ihr auch?", "translation": "Do you all hike too?" },
+      "sie": { "form": "wandern",  "example": "Sie wandern in der Natur.", "translation": "They hike in nature." }
+    },
+    "endingIndices": {
+      "ich": [6],
+      "du":  [6, 7],
+      "er":  [6],
+      "wir": [6],
+      "ihr": [6],
+      "sie": [6]
+    }
+  },
+  {
+    "id": "treffen",
+    "infinitive": "treffen",
+    "english": "to meet",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "treff– → triff (du, er/sie/es) — e→i",
+    "conjugations": {
+      "ich": { "form": "treffe",  "example": "Ich treffe Freunde.", "translation": "I am meeting friends." },
+      "du":  { "form": "triffst", "example": "Wen triffst du heute?", "translation": "Who are you meeting today?" },
+      "er":  { "form": "trifft",  "example": "Er trifft sich mit ihr.", "translation": "He is meeting with her." },
+      "wir": { "form": "treffen", "example": "Wir treffen uns um 3 Uhr.", "translation": "We are meeting at 3 o'clock." },
+      "ihr": { "form": "trefft",  "example": "Wann trefft ihr euch?", "translation": "When are you all meeting?" },
+      "sie": { "form": "treffen", "example": "Sie treffen sich im Café.", "translation": "They meet at the café." }
+    },
+    "irregularMarks": {
+      "du": [2],
+      "er": [2]
+    },
+    "endingIndices": {
+      "ich": [5],
+      "du":  [5, 6],
+      "er":  [5],
+      "wir": [5, 6],
+      "ihr": [5],
+      "sie": [5, 6]
+    }
+  },
+  {
+    "id": "backen",
+    "infinitive": "backen",
+    "english": "to bake",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "back– → bäck (du, er/sie/es) — a→ä umlaut",
+    "conjugations": {
+      "ich": { "form": "backe",  "example": "Ich backe einen Kuchen.", "translation": "I am baking a cake." },
+      "du":  { "form": "bäckst", "example": "Bäckst du gern?", "translation": "Do you like baking?" },
+      "er":  { "form": "bäckt",  "example": "Er bäckt Brot.", "translation": "He bakes bread." },
+      "wir": { "form": "backen", "example": "Wir backen Plätzchen.", "translation": "We are baking cookies." },
+      "ihr": { "form": "backt",  "example": "Backt ihr auch?", "translation": "Do you all bake too?" },
+      "sie": { "form": "backen", "example": "Sie backen einen Geburtstagskuchen.", "translation": "They are baking a birthday cake." }
+    },
+    "irregularMarks": {
+      "du": [1],
+      "er": [1]
+    },
+    "endingIndices": {
+      "ich": [4],
+      "du":  [4, 5],
+      "er":  [4],
+      "wir": [4, 5],
+      "ihr": [4],
+      "sie": [4, 5]
+    }
+  },
+  {
+    "id": "malen",
+    "infinitive": "malen",
+    "english": "to paint / to draw",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "male",  "example": "Ich male ein Bild.", "translation": "I am painting a picture." },
+      "du":  { "form": "malst", "example": "Malst du gern?", "translation": "Do you like to paint?" },
+      "er":  { "form": "malt",  "example": "Er malt sehr schön.", "translation": "He paints very beautifully." },
+      "wir": { "form": "malen", "example": "Wir malen zusammen.", "translation": "We paint together." },
+      "ihr": { "form": "malt",  "example": "Malt ihr auch?", "translation": "Do you all paint too?" },
+      "sie": { "form": "malen", "example": "Sie malen Porträts.", "translation": "They paint portraits." }
+    },
+    "endingIndices": {
+      "ich": [3],
+      "du":  [3, 4],
+      "er":  [3],
+      "wir": [3, 4],
+      "ihr": [3],
+      "sie": [3, 4]
+    }
+  },
+  {
+    "id": "anfangen",
+    "infinitive": "anfangen",
+    "english": "to begin / to start",
+    "type": "trennbar",
+    "category": "daily-life",
+    "stemNote": "fäng– for du, er/sie/es (a→ä umlaut)",
+    "trennbarInfo": {
+      "prefix": "an",
+      "splitExample": "Der Kurs fängt um 9 Uhr an.",
+      "splitTranslation": "The course starts at 9 o'clock."
+    },
+    "conjugations": {
+      "ich": { "form": "an/fange",  "example": "Ich fange jetzt an.", "translation": "I am starting now." },
+      "du":  { "form": "an/fängst", "example": "Wann fängst du an?", "translation": "When do you start?" },
+      "er":  { "form": "an/fängt",  "example": "Der Film fängt um 8 an.", "translation": "The film starts at 8." },
+      "wir": { "form": "an/fangen", "example": "Wir fangen morgen an.", "translation": "We start tomorrow." },
+      "ihr": { "form": "an/fangt",  "example": "Wann fangt ihr an?", "translation": "When do you all start?" },
+      "sie": { "form": "an/fangen", "example": "Sie fangen pünktlich an.", "translation": "They start punctually." }
+    },
+    "endingIndices": {
+      "ich": [7],
+      "du":  [7, 8],
+      "er":  [7],
+      "wir": [7, 8],
+      "ihr": [7],
+      "sie": [7, 8]
+    }
   }
 ]
