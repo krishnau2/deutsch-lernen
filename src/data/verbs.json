@@ -1,0 +1,555 @@
+[
+  {
+    "id": "sein",
+    "infinitive": "sein",
+    "english": "to be",
+    "type": "irregular",
+    "category": "sein-haben",
+    "stemNote": "Completely irregular — must memorize all forms",
+    "conjugations": {
+      "ich": { "form": "bin", "example": "Ich bin Student.", "translation": "I am a student." },
+      "du":  { "form": "bist", "example": "Du bist nett.", "translation": "You are nice." },
+      "er":  { "form": "ist", "example": "Er ist müde.", "translation": "He is tired." },
+      "wir": { "form": "sind", "example": "Wir sind hier.", "translation": "We are here." },
+      "ihr": { "form": "seid", "example": "Ihr seid laut.", "translation": "You all are loud." },
+      "sie": { "form": "sind", "example": "Sie sind Freunde.", "translation": "They are friends." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [0,1,2], "endingIndices": [] },
+      "du":  { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] },
+      "er":  { "vowelChangeIndices": [0,1,2], "endingIndices": [] },
+      "wir": { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] },
+      "ihr": { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] },
+      "sie": { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] }
+    }
+  },
+  {
+    "id": "haben",
+    "infinitive": "haben",
+    "english": "to have",
+    "type": "irregular",
+    "category": "sein-haben",
+    "stemNote": "hab– → ha (du, er/sie/es) — 'b' drops out",
+    "conjugations": {
+      "ich": { "form": "habe",  "example": "Ich habe ein Buch.", "translation": "I have a book." },
+      "du":  { "form": "hast",  "example": "Du hast Zeit.", "translation": "You have time." },
+      "er":  { "form": "hat",   "example": "Er hat Hunger.", "translation": "He is hungry." },
+      "wir": { "form": "haben", "example": "Wir haben ein Auto.", "translation": "We have a car." },
+      "ihr": { "form": "habt",  "example": "Ihr habt Glück.", "translation": "You all are lucky." },
+      "sie": { "form": "haben", "example": "Sie haben Kinder.", "translation": "They have children." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [2, 3] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [2] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [3, 4] }
+    }
+  },
+  {
+    "id": "heissen",
+    "infinitive": "heißen",
+    "english": "to be called / to be named",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "heiße",   "example": "Ich heiße Maria.", "translation": "My name is Maria." },
+      "du":  { "form": "heißt",   "example": "Wie heißt du?", "translation": "What is your name?" },
+      "er":  { "form": "heißt",   "example": "Er heißt Thomas.", "translation": "His name is Thomas." },
+      "wir": { "form": "heißen",  "example": "Wir heißen Schmidt.", "translation": "Our name is Schmidt." },
+      "ihr": { "form": "heißt",   "example": "Wie heißt ihr?", "translation": "What are your names?" },
+      "sie": { "form": "heißen",  "example": "Sie heißen Müller.", "translation": "Their name is Müller." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "kommen",
+    "infinitive": "kommen",
+    "english": "to come",
+    "type": "regular",
+    "category": "movement",
+    "conjugations": {
+      "ich": { "form": "komme",   "example": "Ich komme aus Deutschland.", "translation": "I come from Germany." },
+      "du":  { "form": "kommst",  "example": "Woher kommst du?", "translation": "Where do you come from?" },
+      "er":  { "form": "kommt",   "example": "Er kommt später.", "translation": "He is coming later." },
+      "wir": { "form": "kommen",  "example": "Wir kommen morgen.", "translation": "We are coming tomorrow." },
+      "ihr": { "form": "kommt",   "example": "Kommt ihr mit?", "translation": "Are you all coming along?" },
+      "sie": { "form": "kommen",  "example": "Sie kommen aus der Türkei.", "translation": "They come from Turkey." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "wohnen",
+    "infinitive": "wohnen",
+    "english": "to live / to reside",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "wohne",   "example": "Ich wohne in Berlin.", "translation": "I live in Berlin." },
+      "du":  { "form": "wohnst",  "example": "Wo wohnst du?", "translation": "Where do you live?" },
+      "er":  { "form": "wohnt",   "example": "Er wohnt in München.", "translation": "He lives in Munich." },
+      "wir": { "form": "wohnen",  "example": "Wir wohnen zusammen.", "translation": "We live together." },
+      "ihr": { "form": "wohnt",   "example": "Wo wohnt ihr?", "translation": "Where do you all live?" },
+      "sie": { "form": "wohnen",  "example": "Sie wohnen in einer Wohnung.", "translation": "They live in an apartment." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "arbeiten",
+    "infinitive": "arbeiten",
+    "english": "to work",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "arbeite",   "example": "Ich arbeite viel.", "translation": "I work a lot." },
+      "du":  { "form": "arbeitest", "example": "Wo arbeitest du?", "translation": "Where do you work?" },
+      "er":  { "form": "arbeitet",  "example": "Er arbeitet im Büro.", "translation": "He works in the office." },
+      "wir": { "form": "arbeiten",  "example": "Wir arbeiten zusammen.", "translation": "We work together." },
+      "ihr": { "form": "arbeitet",  "example": "Ihr arbeitet zu viel.", "translation": "You all work too much." },
+      "sie": { "form": "arbeiten",  "example": "Sie arbeiten hier.", "translation": "They work here." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [6, 7, 8] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [6, 7] }
+    }
+  },
+  {
+    "id": "lernen",
+    "infinitive": "lernen",
+    "english": "to learn / to study",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "lerne",   "example": "Ich lerne Deutsch.", "translation": "I am learning German." },
+      "du":  { "form": "lernst",  "example": "Was lernst du?", "translation": "What are you learning?" },
+      "er":  { "form": "lernt",   "example": "Er lernt jeden Tag.", "translation": "He learns every day." },
+      "wir": { "form": "lernen",  "example": "Wir lernen zusammen.", "translation": "We learn together." },
+      "ihr": { "form": "lernt",   "example": "Ihr lernt schnell.", "translation": "You all learn quickly." },
+      "sie": { "form": "lernen",  "example": "Sie lernen Englisch.", "translation": "They are learning English." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "machen",
+    "infinitive": "machen",
+    "english": "to make / to do",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "mache",   "example": "Ich mache Hausaufgaben.", "translation": "I am doing homework." },
+      "du":  { "form": "machst",  "example": "Was machst du?", "translation": "What are you doing?" },
+      "er":  { "form": "macht",   "example": "Er macht Sport.", "translation": "He does sports." },
+      "wir": { "form": "machen",  "example": "Wir machen eine Pause.", "translation": "We are taking a break." },
+      "ihr": { "form": "macht",   "example": "Was macht ihr?", "translation": "What are you all doing?" },
+      "sie": { "form": "machen",  "example": "Sie machen Urlaub.", "translation": "They are on vacation." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "sprechen",
+    "infinitive": "sprechen",
+    "english": "to speak / to talk",
+    "type": "irregular",
+    "category": "common-a1",
+    "stemNote": "sprech– → sprich (du, er/sie/es)",
+    "conjugations": {
+      "ich": { "form": "spreche",  "example": "Ich spreche Deutsch.", "translation": "I speak German." },
+      "du":  { "form": "sprichst", "example": "Du sprichst sehr gut.", "translation": "You speak very well." },
+      "er":  { "form": "spricht",  "example": "Er spricht mit ihr.", "translation": "He speaks with her." },
+      "wir": { "form": "sprechen", "example": "Wir sprechen leise.", "translation": "We speak quietly." },
+      "ihr": { "form": "sprecht",  "example": "Ihr sprecht zu schnell.", "translation": "You all speak too fast." },
+      "sie": { "form": "sprechen", "example": "Sie sprechen Englisch.", "translation": "They speak English." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "du":  { "vowelChangeIndices": [3], "endingIndices": [5, 6] },
+      "er":  { "vowelChangeIndices": [3], "endingIndices": [5] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [6, 7] }
+    }
+  },
+  {
+    "id": "lesen",
+    "infinitive": "lesen",
+    "english": "to read",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "les– → lies (du, er/sie/es)",
+    "conjugations": {
+      "ich": { "form": "lese",   "example": "Ich lese ein Buch.", "translation": "I am reading a book." },
+      "du":  { "form": "liest",  "example": "Du liest gern.", "translation": "You like to read." },
+      "er":  { "form": "liest",  "example": "Er liest die Zeitung.", "translation": "He reads the newspaper." },
+      "wir": { "form": "lesen",  "example": "Wir lesen zusammen.", "translation": "We read together." },
+      "ihr": { "form": "lest",   "example": "Ihr lest viel.", "translation": "You all read a lot." },
+      "sie": { "form": "lesen",  "example": "Sie lesen jeden Abend.", "translation": "They read every evening." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "du":  { "vowelChangeIndices": [1, 2], "endingIndices": [3] },
+      "er":  { "vowelChangeIndices": [1, 2], "endingIndices": [3] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [3, 4] }
+    }
+  },
+  {
+    "id": "essen",
+    "infinitive": "essen",
+    "english": "to eat",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "ess– → iss (du, er/sie/es)",
+    "conjugations": {
+      "ich": { "form": "esse",  "example": "Ich esse gern Pizza.", "translation": "I like to eat pizza." },
+      "du":  { "form": "isst",  "example": "Du isst zu wenig.", "translation": "You eat too little." },
+      "er":  { "form": "isst",  "example": "Er isst Fleisch.", "translation": "He eats meat." },
+      "wir": { "form": "essen", "example": "Wir essen zusammen.", "translation": "We eat together." },
+      "ihr": { "form": "esst",  "example": "Ihr esst zu schnell.", "translation": "You all eat too fast." },
+      "sie": { "form": "essen", "example": "Sie essen im Restaurant.", "translation": "They eat at a restaurant." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "du":  { "vowelChangeIndices": [0, 1], "endingIndices": [2] },
+      "er":  { "vowelChangeIndices": [0, 1], "endingIndices": [2] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [3, 4] }
+    }
+  },
+  {
+    "id": "fahren",
+    "infinitive": "fahren",
+    "english": "to drive / to travel",
+    "type": "irregular",
+    "category": "movement",
+    "stemNote": "fahr– → fähr (du, er/sie/es) — umlaut change",
+    "conjugations": {
+      "ich": { "form": "fahre",  "example": "Ich fahre nach Hause.", "translation": "I am driving home." },
+      "du":  { "form": "fährst", "example": "Wohin fährst du?", "translation": "Where are you driving to?" },
+      "er":  { "form": "fährt",  "example": "Er fährt Auto.", "translation": "He drives a car." },
+      "wir": { "form": "fahren", "example": "Wir fahren in Urlaub.", "translation": "We are going on vacation." },
+      "ihr": { "form": "fahrt",  "example": "Ihr fahrt zu schnell.", "translation": "You all drive too fast." },
+      "sie": { "form": "fahren", "example": "Sie fahren mit dem Zug.", "translation": "They travel by train." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [1], "endingIndices": [3, 4] },
+      "er":  { "vowelChangeIndices": [1], "endingIndices": [3] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "schlafen",
+    "infinitive": "schlafen",
+    "english": "to sleep",
+    "type": "irregular",
+    "category": "daily-life",
+    "stemNote": "schlaf– → schläf (du, er/sie/es) — umlaut change",
+    "conjugations": {
+      "ich": { "form": "schlafe",  "example": "Ich schlafe gut.", "translation": "I sleep well." },
+      "du":  { "form": "schläfst", "example": "Du schläfst lange.", "translation": "You sleep for a long time." },
+      "er":  { "form": "schläft",  "example": "Er schläft schon.", "translation": "He is already sleeping." },
+      "wir": { "form": "schlafen", "example": "Wir schlafen früh.", "translation": "We sleep early." },
+      "ihr": { "form": "schlaft",  "example": "Ihr schlaft viel.", "translation": "You all sleep a lot." },
+      "sie": { "form": "schlafen", "example": "Sie schlafen noch.", "translation": "They are still sleeping." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "du":  { "vowelChangeIndices": [4], "endingIndices": [6, 7] },
+      "er":  { "vowelChangeIndices": [4], "endingIndices": [6] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [6, 7] }
+    }
+  },
+  {
+    "id": "anrufen",
+    "infinitive": "anrufen",
+    "english": "to call (by phone)",
+    "type": "trennbar",
+    "category": "daily-life",
+    "trennbarInfo": {
+      "prefix": "an",
+      "splitExample": "Ich rufe dich morgen an.",
+      "splitTranslation": "I will call you tomorrow."
+    },
+    "conjugations": {
+      "ich": { "form": "an/rufe",   "example": "Ich rufe dich an.", "translation": "I am calling you." },
+      "du":  { "form": "an/rufst",  "example": "Rufst du mich an?", "translation": "Are you calling me?" },
+      "er":  { "form": "an/ruft",   "example": "Er ruft später an.", "translation": "He will call later." },
+      "wir": { "form": "an/rufen",  "example": "Wir rufen euch an.", "translation": "We will call you all." },
+      "ihr": { "form": "an/ruft",   "example": "Ruft ihr an?", "translation": "Are you all calling?" },
+      "sie": { "form": "an/rufen",  "example": "Sie rufen uns an.", "translation": "They are calling us." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [6] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [6, 7] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [6] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [6, 7] }
+    }
+  },
+  {
+    "id": "aufstehen",
+    "infinitive": "aufstehen",
+    "english": "to get up / to stand up",
+    "type": "trennbar",
+    "category": "daily-life",
+    "trennbarInfo": {
+      "prefix": "auf",
+      "splitExample": "Ich stehe um 7 Uhr auf.",
+      "splitTranslation": "I get up at 7 o'clock."
+    },
+    "conjugations": {
+      "ich": { "form": "auf/stehe",  "example": "Ich stehe früh auf.", "translation": "I get up early." },
+      "du":  { "form": "auf/stehst", "example": "Wann stehst du auf?", "translation": "When do you get up?" },
+      "er":  { "form": "auf/steht",  "example": "Er steht spät auf.", "translation": "He gets up late." },
+      "wir": { "form": "auf/stehen", "example": "Wir stehen um 6 auf.", "translation": "We get up at 6." },
+      "ihr": { "form": "auf/steht",  "example": "Ihr steht früh auf.", "translation": "You all get up early." },
+      "sie": { "form": "auf/stehen", "example": "Sie stehen zusammen auf.", "translation": "They get up together." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [8] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [8, 9] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [8] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [8, 9] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [8] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [8, 9] }
+    }
+  },
+  {
+    "id": "einkaufen",
+    "infinitive": "einkaufen",
+    "english": "to go shopping",
+    "type": "trennbar",
+    "category": "daily-life",
+    "trennbarInfo": {
+      "prefix": "ein",
+      "splitExample": "Ich kaufe heute ein.",
+      "splitTranslation": "I am shopping today."
+    },
+    "conjugations": {
+      "ich": { "form": "ein/kaufe",   "example": "Ich kaufe im Supermarkt ein.", "translation": "I shop at the supermarket." },
+      "du":  { "form": "ein/kaufst",  "example": "Wo kaufst du ein?", "translation": "Where do you shop?" },
+      "er":  { "form": "ein/kauft",   "example": "Er kauft jeden Tag ein.", "translation": "He shops every day." },
+      "wir": { "form": "ein/kaufen",  "example": "Wir kaufen zusammen ein.", "translation": "We shop together." },
+      "ihr": { "form": "ein/kauft",   "example": "Kauft ihr ein?", "translation": "Are you all shopping?" },
+      "sie": { "form": "ein/kaufen",  "example": "Sie kaufen viel ein.", "translation": "They shop a lot." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [8] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [8, 9] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [8] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [8, 9] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [8] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [8, 9] }
+    }
+  },
+  {
+    "id": "trinken",
+    "infinitive": "trinken",
+    "english": "to drink",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "trinke",   "example": "Ich trinke Kaffee.", "translation": "I drink coffee." },
+      "du":  { "form": "trinkst",  "example": "Was trinkst du?", "translation": "What are you drinking?" },
+      "er":  { "form": "trinkt",   "example": "Er trinkt Wasser.", "translation": "He drinks water." },
+      "wir": { "form": "trinken",  "example": "Wir trinken Tee.", "translation": "We drink tea." },
+      "ihr": { "form": "trinkt",   "example": "Was trinkt ihr?", "translation": "What are you all drinking?" },
+      "sie": { "form": "trinken",  "example": "Sie trinken Bier.", "translation": "They drink beer." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [5] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [5, 6] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [5] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [5, 6] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [5] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [5, 6] }
+    }
+  },
+  {
+    "id": "gehen",
+    "infinitive": "gehen",
+    "english": "to go / to walk",
+    "type": "regular",
+    "category": "movement",
+    "conjugations": {
+      "ich": { "form": "gehe",   "example": "Ich gehe in die Schule.", "translation": "I go to school." },
+      "du":  { "form": "gehst",  "example": "Wohin gehst du?", "translation": "Where are you going?" },
+      "er":  { "form": "geht",   "example": "Er geht nach Hause.", "translation": "He is going home." },
+      "wir": { "form": "gehen",  "example": "Wir gehen spazieren.", "translation": "We are going for a walk." },
+      "ihr": { "form": "geht",   "example": "Geht ihr mit?", "translation": "Are you all coming along?" },
+      "sie": { "form": "gehen",  "example": "Sie gehen ins Kino.", "translation": "They are going to the cinema." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [3] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [3, 4] }
+    }
+  },
+  {
+    "id": "koennen",
+    "infinitive": "können",
+    "english": "to be able to / can",
+    "type": "irregular",
+    "category": "modal",
+    "stemNote": "kann for ich & er/sie/es — no ending for ich",
+    "conjugations": {
+      "ich": { "form": "kann",    "example": "Ich kann schwimmen.", "translation": "I can swim." },
+      "du":  { "form": "kannst",  "example": "Kannst du mir helfen?", "translation": "Can you help me?" },
+      "er":  { "form": "kann",    "example": "Er kann gut kochen.", "translation": "He can cook well." },
+      "wir": { "form": "können",  "example": "Wir können kommen.", "translation": "We can come." },
+      "ihr": { "form": "könnt",   "example": "Könnt ihr das machen?", "translation": "Can you all do that?" },
+      "sie": { "form": "können",  "example": "Sie können Deutsch.", "translation": "They know German." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] },
+      "du":  { "vowelChangeIndices": [0,1,2,3], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [0,1,2,3], "endingIndices": [] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "moechten",
+    "infinitive": "möchten",
+    "english": "would like to",
+    "type": "irregular",
+    "category": "modal",
+    "stemNote": "möchte for ich & er/sie/es — no –e ending for ich",
+    "conjugations": {
+      "ich": { "form": "möchte",   "example": "Ich möchte Kaffee.", "translation": "I would like (a) coffee." },
+      "du":  { "form": "möchtest", "example": "Was möchtest du?", "translation": "What would you like?" },
+      "er":  { "form": "möchte",   "example": "Er möchte schlafen.", "translation": "He would like to sleep." },
+      "wir": { "form": "möchten",  "example": "Wir möchten zahlen.", "translation": "We would like to pay." },
+      "ihr": { "form": "möchtet",  "example": "Was möchtet ihr?", "translation": "What would you all like?" },
+      "sie": { "form": "möchten",  "example": "Sie möchten helfen.", "translation": "They would like to help." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [5] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [5, 6, 7] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [5] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [5, 6] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [5, 6] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [5, 6] }
+    }
+  },
+  {
+    "id": "kaufen",
+    "infinitive": "kaufen",
+    "english": "to buy",
+    "type": "regular",
+    "category": "daily-life",
+    "conjugations": {
+      "ich": { "form": "kaufe",   "example": "Ich kaufe ein Buch.", "translation": "I am buying a book." },
+      "du":  { "form": "kaufst",  "example": "Was kaufst du?", "translation": "What are you buying?" },
+      "er":  { "form": "kauft",   "example": "Er kauft Obst.", "translation": "He buys fruit." },
+      "wir": { "form": "kaufen",  "example": "Wir kaufen ein Haus.", "translation": "We are buying a house." },
+      "ihr": { "form": "kauft",   "example": "Was kauft ihr?", "translation": "What are you all buying?" },
+      "sie": { "form": "kaufen",  "example": "Sie kaufen Kleidung.", "translation": "They buy clothes." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [4] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [4, 5] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [4] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [4, 5] }
+    }
+  },
+  {
+    "id": "schreiben",
+    "infinitive": "schreiben",
+    "english": "to write",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "schreibe",   "example": "Ich schreibe einen Brief.", "translation": "I am writing a letter." },
+      "du":  { "form": "schreibst",  "example": "Du schreibst gut.", "translation": "You write well." },
+      "er":  { "form": "schreibt",   "example": "Er schreibt eine E-Mail.", "translation": "He is writing an email." },
+      "wir": { "form": "schreiben",  "example": "Wir schreiben zusammen.", "translation": "We write together." },
+      "ihr": { "form": "schreibt",   "example": "Ihr schreibt viel.", "translation": "You all write a lot." },
+      "sie": { "form": "schreiben",  "example": "Sie schreiben Hausaufgaben.", "translation": "They are writing homework." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [7] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [7, 8] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [7] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [7, 8] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [7] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [7, 8] }
+    }
+  },
+  {
+    "id": "hoeren",
+    "infinitive": "hören",
+    "english": "to hear / to listen",
+    "type": "regular",
+    "category": "common-a1",
+    "conjugations": {
+      "ich": { "form": "höre",   "example": "Ich höre Musik.", "translation": "I listen to music." },
+      "du":  { "form": "hörst",  "example": "Hörst du das?", "translation": "Do you hear that?" },
+      "er":  { "form": "hört",   "example": "Er hört Radio.", "translation": "He listens to the radio." },
+      "wir": { "form": "hören",  "example": "Wir hören zu.", "translation": "We are listening." },
+      "ihr": { "form": "hört",   "example": "Ihr hört laut.", "translation": "You all listen loudly." },
+      "sie": { "form": "hören",  "example": "Sie hören Podcasts.", "translation": "They listen to podcasts." }
+    },
+    "irregularMarks": {
+      "ich": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "du":  { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "er":  { "vowelChangeIndices": [], "endingIndices": [3] },
+      "wir": { "vowelChangeIndices": [], "endingIndices": [3, 4] },
+      "ihr": { "vowelChangeIndices": [], "endingIndices": [3] },
+      "sie": { "vowelChangeIndices": [], "endingIndices": [3, 4] }
+    }
+  }
+]
