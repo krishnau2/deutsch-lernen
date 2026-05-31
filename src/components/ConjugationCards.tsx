@@ -21,21 +21,28 @@ export default function ConjugationCards({ verb }: Props) {
   return (
     <div className="conj-cards-grid">
       {SUBJECTS.map(({ key, label }) => {
-        const conj  = conjugations[key as SubjectKey];
-        const mark  = irregularMarks?.[key as SubjectKey];
-        const isIrr = !!mark && mark.vowelChangeIndices.length > 0;
+        const conj         = conjugations[key as SubjectKey];
+        const vowelChanges = irregularMarks?.[key as SubjectKey];
+        const endings      = verb.endingIndices?.[key as SubjectKey];
+        const isIrr        = !!vowelChanges && vowelChanges.length > 0;
 
         return (
           <div key={key} className={`conj-card ${isIrr ? 'irr-card' : ''}`}>
             <div className="card-subject">{label}</div>
             <div className="card-form">
-              <ColoredForm form={conj.form} mark={mark} isTrennbar={isTrennbar} />
+              <ColoredForm
+                form={conj.form}
+                vowelChanges={vowelChanges}
+                endingIndices={endings}
+                isTrennbar={isTrennbar}
+              />
             </div>
             <div className="card-example">
               <ColoredExample
                 example={conj.example}
                 form={conj.form}
-                mark={mark}
+                vowelChanges={vowelChanges}
+                endingIndices={endings}
                 isTrennbar={isTrennbar}
               />
               <span className="card-eng">{conj.translation}</span>

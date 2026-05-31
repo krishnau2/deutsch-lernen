@@ -30,9 +30,10 @@ export default function ConjugationTable({ verb }: Props) {
         </thead>
         <tbody>
           {SUBJECTS.map(({ key, label }) => {
-            const conj   = conjugations[key as SubjectKey];
-            const mark   = irregularMarks?.[key as SubjectKey];
-            const isIrr  = !!mark && mark.vowelChangeIndices.length > 0;
+            const conj         = conjugations[key as SubjectKey];
+            const vowelChanges = irregularMarks?.[key as SubjectKey];
+            const endings      = verb.endingIndices?.[key as SubjectKey];
+            const isIrr        = !!vowelChanges && vowelChanges.length > 0;
 
             return (
               <tr key={key} className={isIrr ? 'irr-row' : ''}>
@@ -41,13 +42,19 @@ export default function ConjugationTable({ verb }: Props) {
                   {label}
                 </td>
                 <td className="form-cell">
-                  <ColoredForm form={conj.form} mark={mark} isTrennbar={isTrennbar} />
+                  <ColoredForm
+                    form={conj.form}
+                    vowelChanges={vowelChanges}
+                    endingIndices={endings}
+                    isTrennbar={isTrennbar}
+                  />
                 </td>
                 <td className="example-cell">
                   <ColoredExample
                     example={conj.example}
                     form={conj.form}
-                    mark={mark}
+                    vowelChanges={vowelChanges}
+                    endingIndices={endings}
                     isTrennbar={isTrennbar}
                   />
                   <span className="example-eng"> — {conj.translation}</span>

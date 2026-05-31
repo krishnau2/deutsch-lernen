@@ -15,21 +15,24 @@ export interface Conjugations {
   sie: ConjugationForm;
 }
 
-// For irregular verbs: which characters changed and where
-export interface IrregularMark {
-  // indices (0-based) of characters in the form string that are vowel changes
-  vowelChangeIndices: number[];
-  // indices of characters that are regular endings
-  endingIndices: number[];
+// Per-person vowel-change character indices (irregular verbs only)
+export interface IrregularMarks {
+  ich?: number[];
+  du?: number[];
+  er?: number[];
+  wir?: number[];
+  ihr?: number[];
+  sie?: number[];
 }
 
-export interface IrregularMarks {
-  du?: IrregularMark;
-  er?: IrregularMark;
-  wir?: IrregularMark;
-  ihr?: IrregularMark;
-  sie?: IrregularMark;
-  ich?: IrregularMark;
+// Per-person regular-ending character indices (all verb types)
+export interface EndingIndices {
+  ich?: number[];
+  du?: number[];
+  er?: number[];
+  wir?: number[];
+  ihr?: number[];
+  sie?: number[];
 }
 
 // For trennbar verbs: index in form string where the split occurs
@@ -46,7 +49,8 @@ export interface Verb {
   type: VerbType;
   category: string;       // for tab grouping e.g. "common-a1", "modal", "movement"
   conjugations: Conjugations;
-  irregularMarks?: IrregularMarks;   // only for irregular
+  irregularMarks?: IrregularMarks;    // vowel-change indices, irregular verbs only
+  endingIndices?: EndingIndices;      // regular ending indices, all verb types
   trennbarInfo?: TrennbarInfo;        // only for trennbar
   stemNote?: string;                  // e.g. "sprech– → sprich (du, er/sie/es)"
 }

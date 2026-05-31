@@ -1,8 +1,7 @@
-import type { IrregularMark } from '../types';
-
-interface FormPartProps {
+interface FormProps {
   form: string;
-  mark?: IrregularMark;
+  vowelChanges?: number[];   // character indices with vowel changes (irregular verbs)
+  endingIndices?: number[];  // character indices for regular endings (all verb types)
   isTrennbar?: boolean;
 }
 
@@ -12,8 +11,7 @@ interface FormPartProps {
  *  - regular endings → .re (teal-blue)
  *  - trennbar "/"   → .ts (teal-green, bold)
  */
-export function ColoredForm({ form, mark, isTrennbar }: FormPartProps) {
-  // Handle trennbar: split on "/" and style the slash + optional ending marks
+export function ColoredForm({ form, vowelChanges, endingIndices, isTrennbar }: FormProps) {
   if (isTrennbar) {
     const slashIdx = form.indexOf('/');
     if (slashIdx !== -1) {
@@ -24,10 +22,10 @@ export function ColoredForm({ form, mark, isTrennbar }: FormPartProps) {
         <span>
           <span className="ts">{prefix}</span>
           <span className="ts">/</span>
-          {mark
+          {endingIndices
             ? rest.split('').map((ch, i) => {
                 const absIdx = restStart + i;
-                if (mark.endingIndices.includes(absIdx)) return <span key={i} className="re">{ch}</span>;
+                if (endingIndices.includes(absIdx)) return <span key={i} className="re">{ch}</span>;
                 return <span key={i}>{ch}</span>;
               })
             : rest}
@@ -36,16 +34,13 @@ export function ColoredForm({ form, mark, isTrennbar }: FormPartProps) {
     }
   }
 
-  if (!mark) return <span>{form}</span>;
-
-  const { vowelChangeIndices, endingIndices } = mark;
-  const chars = form.split('');
+  if (!vowelChanges && !endingIndices) return <span>{form}</span>;
 
   return (
     <span>
-      {chars.map((ch, i) => {
-        if (vowelChangeIndices.includes(i)) return <span key={i} className="vc">{ch}</span>;
-        if (endingIndices.includes(i))      return <span key={i} className="re">{ch}</span>;
+      {form.split('').map((ch, i) => {
+        if (vowelChanges?.includes(i))  return <span key={i} className="vc">{ch}</span>;
+        if (endingIndices?.includes(i)) return <span key={i} className="re">{ch}</span>;
         return <span key={i}>{ch}</span>;
       })}
     </span>
@@ -54,24 +49,24 @@ export function ColoredForm({ form, mark, isTrennbar }: FormPartProps) {
 
 /**
  * Same logic applied inside an example sentence.
- * We find the conjugated form inside the sentence and color it.
+ * Finds the conjugated form in the sentence and colors it.
  */
 export function ColoredExample({
   example,
   form,
-  mark,
+  vowelChanges,
+  endingIndices,
   isTrennbar,
 }: {
   example: string;
   form: string;
-  mark?: IrregularMark;
+  vowelChanges?: number[];
+  endingIndices?: number[];
   isTrennbar?: boolean;
 }) {
-  // For trennbar, just return plain example (prefix is at end)
   if (isTrennbar) return <span>{example}</span>;
-  if (!mark) return <span>{example}</span>;
+  if (!vowelChanges && !endingIndices) return <span>{example}</span>;
 
-  // Find the conjugated form (case-insensitive) in the example sentence
   const lowerEx   = example.toLowerCase();
   const lowerForm = form.toLowerCase();
   const idx = lowerEx.indexOf(lowerForm);
@@ -81,15 +76,12 @@ export function ColoredExample({
   const matched = example.slice(idx, idx + form.length);
   const after   = example.slice(idx + form.length);
 
-  const chars = matched.split('');
-  const { vowelChangeIndices, endingIndices } = mark;
-
   return (
     <span>
       {before}
-      {chars.map((ch, i) => {
-        if (vowelChangeIndices.includes(i)) return <span key={i} className="vc">{ch}</span>;
-        if (endingIndices.includes(i))      return <span key={i} className="re">{ch}</span>;
+      {matched.split('').map((ch, i) => {
+        if (vowelChanges?.includes(i))  return <span key={i} className="vc">{ch}</span>;
+        if (endingIndices?.includes(i)) return <span key={i} className="re">{ch}</span>;
         return <span key={i}>{ch}</span>;
       })}
       {after}
