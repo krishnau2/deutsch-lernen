@@ -222,7 +222,7 @@ export default function ConjugationPage() {
 
         {/* Tab verb list — quick-pick row */}
         {tabVerbs.length > 1 && (
-          <div style={{ marginTop: 20 }}>
+          <div className="verb-quick-pick" style={{ marginTop: 20 }}>
             <div className="section-heading" style={{ marginBottom: 8 }}>
               {TABS.find(t => t.id === activeTab)?.label}
             </div>

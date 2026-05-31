@@ -25,7 +25,7 @@ export default function ConjugationTable({ verb }: Props) {
           <tr>
             <th style={{ width: 130 }}>Subject</th>
             <th style={{ width: 170 }}>Form</th>
-            <th>Example sentence</th>
+            <th className="example-col-header">Example sentence</th>
           </tr>
         </thead>
         <tbody>

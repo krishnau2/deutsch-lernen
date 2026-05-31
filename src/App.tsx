@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
+import MobileTopBar from './components/MobileTopBar';
 import ConjugationPage from './pages/ConjugationPage';
 import ArticlesPage from './pages/ArticlesPage';
 
@@ -9,6 +10,7 @@ function AppShell() {
 
   return (
     <div className="app-shell">
+      <MobileTopBar />
       <Sidebar
         activeCategory={activeCategory}
         onCategoryChange={setActiveCategory}
